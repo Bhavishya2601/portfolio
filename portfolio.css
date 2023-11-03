@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(43, 42, 42);
+    font-family: system-ui;
+}
+.nav-bar{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.bar1{
+    display: flex;
+    flex-direction: row;
+    padding-right: 100px;
+    padding-left: 40px;
+}
+
+.bar{
+    display: inline;
+    color: black;
+    font-size: 20px;
+    padding: 30px 20px;
+}
+.bar:hover{
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* code for home */
+#main-home{
+    height: 550px;
+    padding-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("backimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.home1{
+    width: 700px;
+    margin-left: 100px;
+    padding-top: 80px;
+}
+.home-img{
+    border-radius: 300px;
+    margin-left: 50px;
+    height: 400px;
+}
+.home2{
+    font-size: 60px; 
+    font-weight: 500;
+    display: flex; 
+    flex-direction: row;
+}
+.home3:hover{
+    text-shadow: 2px 2px 5px black;
+}
+/* code for skills */
+#main-skills{
+    padding: 50px 0;
+    background-color: black;
+    color: white;
+    font-family: system-ui;
+}
+.skill{
+    display: flex;
+    justify-content: space-evenly;
+}
+.skills{
+    display: inline;
+    height: 400px;
+    background-color: rgb(46, 45, 45);
+    border-radius: 20px;
+    width: 350px;
+    padding: 30px 10px;
+}
+.skills a:hover{
+    text-decoration: underline;
+}
+.skills:hover{
+    background-color: red;
+    box-shadow: 0 0 40px 0 red;
+}
+.skill-img{
+    height: 70px;
+}
+.skills-head{
+    font-size: 40px;
+    font-weight: 450;
+    padding-top: 20px;
+}
+.skills-content{
+    padding-top: 10px;
+}
+/* code for projects */
+#main-projects{
+    background-color: rgb(219, 219, 219);
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.project1{
+    width:400px;
+    padding-bottom: 50px;
+}
+.project-line{
+    height: 3px;
+    background-color: black;
+    border-radius: 5px;
+}
+.project-head{
+    font-size: 30px;
+    padding: 20px 10px;
+}
+.project-button{
+    width:200px;
+    height:60px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.project-button:hover{
+    background-color: red;
+    border: none;
+}
+/* code for contact */
+#footer1{
+    background-color: black;
+    color:white;
+    padding-bottom: 20px;
+    font-family: system-ui;
+    padding-top: 30px;
+}
+#contact{
+    font-size: 60px;
+    background-color:black;
+    height:100px;
+}
+.foot{
+    display:flex;
+    flex-direction:row;
+}
+.foot1{
+    display: grid;
+    margin-left: 150px;
+}
+.foot1a{
+    height:50px;
+    margin-top:-70px;
+    color:rgb(145, 145, 145);
+}
+.num{
+    margin-top: -100px;
+}
+.foot1b{
+    width:550px;
+    height:50px;
+    background-color:rgb(56, 52, 52);
+    border-radius: 10px;
+    margin-top:20px;
+    margin-left:-50px;
+    color:gray;
+    font-size: 20px;
+    padding-left:5px;
+    border-color: black;
+    font-family: system-ui;
+}
+.text{
+    height:150px
+}
+.submit{
+    background-color: rgb(235, 49, 49);
+    color:white;
+    height: 50px;
+    width: 100px;
+    border-radius:15px;
+    margin-left: -50px;
+    margin-top:10px;
+    font-size: 20px;
+}
+.symbol{
+    margin-top: -100px;
+}
+.fa{
+    color:rgb(137, 0, 0);
+}
+.fa-facebook,.fa-instagram,.fa-twitter,.fa-linkedin,.fa-github{
+    padding: 8px 8px;
+    background-color:black;
+    color:white;
+    height: 20px;
+}
+.footer2{
+    background-color: rgb(58, 52, 52);
+    color: white;
+    padding: 20px 0 20px 0;
+    font-size: 30px;
+    text-align: center;
+    font-family: system-ui;
+}
+/* code for contact ends */
